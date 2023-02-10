@@ -1,3 +1,4 @@
+print("BMI CALC© by Sasutski")
 conversion = input("Pounds or Kilograms?:\n")
 if conversion  == ("Kilograms"):
     weight = float(input("Weight in Kg: \n"))

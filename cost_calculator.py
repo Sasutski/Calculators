@@ -1,3 +1,4 @@
+print("COST CALC© by Sasutski")
 cost = float(input("Cost of the meal: "))
 service_charge = float(input("Service Charge amount:"))
 GST = float(input("GST amount: "))
