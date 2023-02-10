@@ -1,5 +1,5 @@
 # Python Calculators
-## Bmi_Calculator
+## BMI Calculator
 
 ### BMI Calculator is using the Singapore metric system
 
