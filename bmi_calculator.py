@@ -3,7 +3,12 @@ conversion = input("Pounds or Kilograms?:\n")
 if conversion  == ("Kilograms"):
     weight = float(input("Weight in Kg: \n"))
     height = float(input("Height in meters: \n"))
-    bmi = (weight/(height ** 2))
+    # if user inputs centimeters
+    if height > 3:
+        newheight = height/100
+    else:
+        newheight = height
+    bmi = (weight/(newheight ** 2))
 else:
     weight = float(input("Weight in Pounds: \n"))
     height = float(input("Height in Inches: \n"))
